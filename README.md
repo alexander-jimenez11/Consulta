@@ -1,4 +1,4 @@
-# Thread_Model_Vs_Actor_Model
+# Thread Model Vs Actor Model
 Trabajo Grupal de consulta
 
 ## Integrates:
