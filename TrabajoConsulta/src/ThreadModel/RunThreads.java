@@ -1,7 +1,7 @@
 package ThreadModel;
 
 public class RunThreads {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         int[][] mat1Values = {
                 {1, 2},
                 {3, 4},
@@ -19,14 +19,8 @@ public class RunThreads {
         System.out.println(result);
     }
 
-    private static void printArray(int[] arr, boolean vertical) {
-        var escapeSquence = vertical ? "\n" : "\t";
-
-
-        for(var i = 0; i < arr.length; i ++) {
-            System.out.printf("%d%s", arr[i], escapeSquence);
-        }
-    }
 }
+
+
 
 

@@ -16,9 +16,10 @@ public class TaskCalcElement extends Thread {
 
     @Override
     public void  run() {
+
         element = calValue(m1.getRow(rowIndex), m2.getColumn(colIndex));
     }
-    
+
     private int calValue (int[] row, int[] col) {
         int aux = 0;
         for(var i = 0; i < row.length; i++) {
